@@ -3716,14 +3716,6 @@
       <a name="label" val="C2_5"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(1540,1540)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="is_byte"/>
-    </comp>
-    <comp lib="0" loc="(1540,1610)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="is_unsigned"/>
-    </comp>
     <comp lib="0" loc="(1540,230)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C26_5"/>
@@ -3802,16 +3794,6 @@
       <a name="out_width" val="32"/>
       <a name="type" val="zero"/>
     </comp>
-    <comp lib="0" loc="(1600,1540)" name="Bit Extender">
-      <a name="in_width" val="1"/>
-      <a name="out_width" val="3"/>
-      <a name="type" val="zero"/>
-    </comp>
-    <comp lib="0" loc="(1600,1610)" name="Bit Extender">
-      <a name="in_width" val="1"/>
-      <a name="out_width" val="3"/>
-      <a name="type" val="zero"/>
-    </comp>
     <comp lib="0" loc="(1600,300)" name="Bit Extender">
       <a name="in_width" val="32"/>
       <a name="out_width" val="6"/>
@@ -3861,14 +3843,6 @@
     <comp lib="0" loc="(1620,1320)" name="Tunnel">
       <a name="label" val="imm_se4"/>
       <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(1620,1540)" name="Tunnel">
-      <a name="label" val="byte3"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1620,1610)" name="Tunnel">
-      <a name="label" val="unsig3"/>
-      <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1620,220)" name="Tunnel">
       <a name="label" val="IR_s26"/>
@@ -5207,8 +5181,6 @@
     <wire from="(1540,1250)" to="(1560,1250)"/>
     <wire from="(1540,1310)" to="(1560,1310)"/>
     <wire from="(1540,1340)" to="(1550,1340)"/>
-    <wire from="(1540,1540)" to="(1560,1540)"/>
-    <wire from="(1540,1610)" to="(1560,1610)"/>
     <wire from="(1540,200)" to="(1540,210)"/>
     <wire from="(1540,210)" to="(1560,210)"/>
     <wire from="(1540,230)" to="(1560,230)"/>
@@ -5236,8 +5208,6 @@
     <wire from="(1600,1180)" to="(1620,1180)"/>
     <wire from="(1600,1250)" to="(1620,1250)"/>
     <wire from="(1600,1320)" to="(1620,1320)"/>
-    <wire from="(1600,1540)" to="(1620,1540)"/>
-    <wire from="(1600,1610)" to="(1620,1610)"/>
     <wire from="(1600,220)" to="(1620,220)"/>
     <wire from="(1600,300)" to="(1620,300)"/>
     <wire from="(1600,370)" to="(1620,370)"/>
